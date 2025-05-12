@@ -1,0 +1,24 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+.image-gallery img {
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

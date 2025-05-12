@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 Welcome to the JavaScript Playground!</h1>
+
+  <button id="colorButton">Click Me</button>
+  <p id="changeText">Hello, I will change!</p>
+
+  <div class="image-gallery">
+    <img id="galleryImage" src="https://via.placeholder.com/300" alt="Gallery Image" />
+    <button onclick="nextImage()">Next</button>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle">Toggle Content</button>
+    <div class="accordion-content">This is some hidden content.</div>
+  </div>
+
+  <form id="signupForm">
+    <label>Email: <input type="email" id="email" required /></label><br />
+    <label>Password: <input type="password" id="password" required /></label><br />
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
